@@ -31,6 +31,8 @@ To reduce latency and improve task success rates in satellite edge computing sce
 4. **Metric Normalization**: Standardize delay and execution cost to compare across VMs.
 5. **Scoring & VM Selection**: Select VM with the lowest score for offloading.
 
+<img width="723" alt="Simulator+Our_Extension" src="https://github.com/user-attachments/assets/da81f00d-4a31-45eb-8246-fa73af0d9368" />
+
 ## 📊 Performance Improvements
 
 Simulation results show that IsoLink:
