@@ -51,3 +51,8 @@ IsoLink is integrated within the SatEdgeSim environment as:
 - `IsoLink.java`: Core orchestration logic
 - `utils/`: Helper functions (e.g., task classification, normalization)
 
+## P.S.
+- Replace "SatEdgeSim-master\SatEdgeSim\settings\locationflie\" with the content inside "locationflie.zip" after downloading it from:
+https://mega.nz/file/iNcXFSBI#jtW0ne8hfECSWeuKa9AMptrno1udResmvT6DVRICV6o
+- Replace "SatEdgeSim-master\bin\settings\locationflie\" with the content inside "locationflie.zip" after downloading it from:
+https://mega.nz/file/iNcXFSBI#jtW0ne8hfECSWeuKa9AMptrno1udResmvT6DVRICV6o
