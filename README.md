@@ -4,6 +4,8 @@
 
 IsoLink is a research-driven enhancement of the SatEdgeSim simulator. It introduces an intelligent, latency-conscious task orchestration algorithm optimized for mist-layer processing in satellite-based edge computing environments.
 
+IsoLink can also be seen is as a task offloading algorithm designed for satellite-enabled edge computing environments. It relies on task classification and context-aware decision-making to enhance performance and reduce latency.
+
 This project builds upon the foundations of [SatEdgeSim](https://github.com/wjy491156866/SatEdgeSim), integrating a new algorithm designed to reduce end-to-end delay for real-time applications through adaptive, context-sensitive task offloading at the mist level.
 
 ## 🔍 Objective
