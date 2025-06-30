@@ -1,0 +1,2 @@
+replace "SatEdgeSim-master\SatEdgeSim\bin\settings\locationflie" with the content inside "locationflie.zip" after downloading it from:
+https://mega.nz/file/iNcXFSBI#jtW0ne8hfECSWeuKa9AMptrno1udResmvT6DVRICV6o

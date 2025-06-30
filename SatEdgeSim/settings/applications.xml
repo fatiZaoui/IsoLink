@@ -1,0 +1,104 @@
+<?xml version="1.0"?>
+<applications>
+	<application name="AUGMENTED_REALITY">
+		<max_delay>5</max_delay> <!-- latency in seconds -->
+		<container_size>25000</container_size><!--application/container size in 
+			kilobytes -->
+		<request_size>1500</request_size><!-- the offloading request that will 
+			be sent to the orchestrator and then to the device where the task will be 
+			offloaded in kilobytes -->
+		<results_size>100</results_size><!-- the results of the offlaoded task 
+			in kilobytes -->
+		<task_length>60000</task_length><!--MI: million instructions -->
+		<required_core>1</required_core>
+		<poisson_interarrival>40</poisson_interarrival><!--lamda in seconds -->
+	</application>
+	<application name="E_HEALTH">
+		<max_delay>20</max_delay>
+		<container_size>13000</container_size>
+		<request_size>10000</request_size>
+		<results_size>10000</results_size>
+		<task_length>200000</task_length>
+		<required_core>1</required_core>
+		<poisson_interarrival>30</poisson_interarrival>
+	</application>
+	<application name="HEAVY_COMP_APP">
+		<max_delay>5</max_delay> <!-- a great number represents no latency- sensitivity -->
+		<container_size>90000</container_size>
+		<request_size>50</request_size>
+		<results_size>50</results_size>
+		<task_length>15000</task_length>
+		<required_core>1</required_core>
+		<poisson_interarrival>10</poisson_interarrival>
+	</application>
+	 <!-- New Applications -->
+    <application name="SMART_FARMING">
+        <max_delay>10</max_delay>
+        <container_size>20000</container_size>
+        <request_size>5000</request_size>
+        <results_size>2000</results_size>
+        <task_length>120000</task_length>
+        <required_core>1</required_core>
+        <poisson_interarrival>20</poisson_interarrival>
+    </application>
+    
+    <application name="IOT">
+        <max_delay>10</max_delay>
+        <container_size>15000</container_size>
+        <request_size>3000</request_size>
+        <results_size>1500</results_size>
+        <task_length>80000</task_length>
+        <required_core>1</required_core>
+        <poisson_interarrival>25</poisson_interarrival>
+    </application>
+    
+    <application name="VIDEO_STREAMING">
+        <max_delay>50</max_delay>
+        <container_size>30000</container_size>
+        <request_size>20000</request_size>
+        <results_size>15000</results_size>
+        <task_length>300000</task_length>
+        <required_core>2</required_core>
+        <poisson_interarrival>15</poisson_interarrival>
+    </application>
+    
+    <application name="MACHINE_LEARNING">
+        <max_delay>30</max_delay>
+        <container_size>25000</container_size>
+        <request_size>10000</request_size>
+        <results_size>5000</results_size>
+        <task_length>250000</task_length>
+        <required_core>2</required_core>
+        <poisson_interarrival>35</poisson_interarrival>
+    </application>
+    
+    <application name="SMART_CITIES">
+        <max_delay>20</max_delay>
+        <container_size>18000</container_size>
+        <request_size>8000</request_size>
+        <results_size>4000</results_size>
+        <task_length>150000</task_length>
+        <required_core>1</required_core>
+        <poisson_interarrival>22</poisson_interarrival>
+    </application>
+    
+    <application name="AUTONOMOUS_VEHICLES">
+        <max_delay>10</max_delay>
+        <container_size>22000</container_size>
+        <request_size>12000</request_size>
+        <results_size>6000</results_size>
+        <task_length>200000</task_length>
+        <required_core>2</required_core>
+        <poisson_interarrival>18</poisson_interarrival>
+    </application>
+    
+    <application name="REMOTE_MONITORING">
+        <max_delay>35</max_delay>
+        <container_size>16000</container_size>
+        <request_size>7000</request_size>
+        <results_size>3000</results_size>
+        <task_length>100000</task_length>
+        <required_core>1</required_core>
+        <poisson_interarrival>28</poisson_interarrival>
+    </application>
+</applications>
